@@ -1,10 +1,12 @@
-PS> git branch -avv
-  bug-fix-revert                16d48af [origin/bug-fix-revert] Merge branch 'bug-fix-typo'
-  bug-fix-typo                  8a43439 [origin/bug-fix-typo] Clarify simple interest is not compounded
-* main                          16d48af [origin/main] Merge branch 'bug-fix-typo'
+PS> git branch -a
+  bug-fix-revert
+  bug-fix-typo
+* main
   remotes/origin/HEAD           -> origin/main
-  remotes/origin/bug-fix-revert 16d48af Merge branch 'bug-fix-typo'
-  remotes/origin/bug-fix-typo   8a43439 Clarify simple interest is not compounded
-  remotes/origin/main           16d48af Merge branch 'bug-fix-typo'
+  remotes/origin/bug-fix-revert
+  remotes/origin/bug-fix-typo
+  remotes/origin/main
   remotes/upstream/HEAD         -> upstream/main
-  remotes/upstream/main         ad95b0a Create close_pr.yml
+  remotes/upstream/main
+PS> git status --short --branch
+## main...origin/main
