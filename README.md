@@ -1,4 +1,6 @@
-# Simple Interest Calculator
+# github-final-project
+
+## Simple Interest Calculator
 
 A Bash command-line calculator for simple interest. Enter a principal amount,
 an annual interest rate (as a percentage), and a time period in years.
