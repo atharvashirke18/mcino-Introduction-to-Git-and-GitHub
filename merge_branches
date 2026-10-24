@@ -1,0 +1,10 @@
+$ git checkout main
+Switched to branch 'main'
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+$ git merge bug-fix-typo
+Auto-merging README.md
+Merge made by the 'ort' strategy.
+ README.md | 2 ++
+ 1 file changed, 2 insertions(+)
