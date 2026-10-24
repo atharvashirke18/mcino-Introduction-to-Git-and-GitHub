@@ -17,6 +17,9 @@ interest.
 - Bash
 - `awk`
 
+Inputs must be non-negative numbers. The principal, rate, and time period can
+include decimal values.
+
 ## Usage
 
 Make the script executable if needed, then run it:
