@@ -12,6 +12,8 @@ Simple interest = principal * annual rate * time in years / 100
 For example, a principal of 1,000 at 5% for 2 years earns 100.00 in simple
 interest.
 
+Enter the annual rate as a percentage (for example, enter `5` for 5%).
+
 ## Requirements
 
 - Bash
