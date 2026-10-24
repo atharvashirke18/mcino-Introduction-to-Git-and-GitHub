@@ -1,4 +1,7 @@
 #!/bin/bash
+# Calculate simple interest as principal * annual rate (%) * years / 100.
+# Inputs: non-negative principal, annual rate, and time in years.
+# Output: simple interest rounded to two decimal places.
 set -euo pipefail
 
 number_pattern='^([0-9]+([.][0-9]*)?|[.][0-9]+)$'
