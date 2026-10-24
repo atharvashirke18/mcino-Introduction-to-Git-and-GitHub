@@ -1,2 +1,2 @@
-$ curl.exe -sS -H "Accept: application/vnd.github+json" "https://api.github.com/repos/atharvashirke18/mcino-Introduction-to-Git-and-GitHub" | ConvertFrom-Json | Select-Object full_name,fork,@{Name="parent";Expression={$_.parent.full_name}},default_branch | ConvertTo-Json -Compress
-{"full_name":"atharvashirke18/mcino-Introduction-to-Git-and-GitHub","fork":true,"parent":"ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub","default_branch":"main"}
+PS> curl.exe -sS -H "Accept: application/vnd.github+json" "https://api.github.com/repos/atharvashirke18/github-final-project" | ConvertFrom-Json | Select-Object full_name,fork,@{Name="parent";Expression={$_.parent.full_name}},default_branch | ConvertTo-Json -Compress
+{"full_name":"atharvashirke18/github-final-project","fork":true,"parent":"ibm-developer-skills-network/mcino-Introduction-to-Git-and-GitHub","default_branch":"main"}

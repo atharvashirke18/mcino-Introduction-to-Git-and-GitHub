@@ -21,12 +21,23 @@ read_number() {
         return 1
     fi
 
-    printf '%s' "$value"
+    REPLY="$value"
 }
 
-principal=$(read_number 'Enter the principal amount: ')
-rate=$(read_number 'Enter the annual interest rate (%): ')
-time=$(read_number 'Enter the time period in years: ')
+if ! read_number 'Enter the principal amount: '; then
+    exit 1
+fi
+principal=$REPLY
+
+if ! read_number 'Enter the annual interest rate (%): '; then
+    exit 1
+fi
+rate=$REPLY
+
+if ! read_number 'Enter the time period in years: '; then
+    exit 1
+fi
+time=$REPLY
 
 if ! LC_ALL=C awk -v principal="$principal" -v rate="$rate" -v time="$time" \
     'BEGIN { printf "Simple interest: %.2f\n", principal * rate * time / 100 }'; then
