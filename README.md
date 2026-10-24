@@ -4,6 +4,7 @@
 
 A Bash command-line calculator for simple interest. Enter a principal amount,
 an annual interest rate (as a percentage), and a time period in years.
+It uses the formula below and prints the interest rounded to two decimal places.
 
 ## Formula
 
